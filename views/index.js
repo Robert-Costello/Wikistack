@@ -13,7 +13,7 @@ module.exports = { addPage, editPage, main, userList, userPages, wikiPage }
 app.get('/', (req, res, next) => {
   try {
     //await res.send(main)
-    res.send(layout())
+    res.send(main())
   } catch (error) {
     next(error)
   }
