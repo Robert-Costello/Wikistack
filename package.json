@@ -13,7 +13,7 @@
     "nodemon": "^1.14.7"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "morgan": "^1.9.1",
     "html-template-tag": "^1.0.0",
     "node-time-ago": "^1.0.0",
